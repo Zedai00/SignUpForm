@@ -56,23 +56,21 @@
   background: whitesmoke;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex: 2;
 }
 
 .content {
   display: flex;
   flex-direction: column;
-  align-self: center;
-  justify-content: center;
-  padding-left: 50px;
   gap: 20px;
+  width: 100%;
 }
 
 .desc {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding-left: 30px;
 }
 
 .desc > div > p {
@@ -89,12 +87,47 @@
 
 form {
   display: flex;
-  flex-wrap: wrap;
-  width: 30vw;
-  gap: 30px;
+  flex-direction: column;
+  gap: 20px;
 }
 
-form > div {
+.input-div {
+  background: white;
+  padding: 20px;
+  padding-left: 30px;
   display: flex;
   flex-direction: column;
+  gap: 10px;
+}
+
+.inputs {
+  display: flex;
+  gap: 40px;
+}
+
+.left-form,
+.right-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.left-form > div,
+.right-form > div {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  height: 30px;
+  width: 200px;
+  color: white;
+  background: #596d48;
+  border: none;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+button + p {
+  margin-left: 30px;
 }
