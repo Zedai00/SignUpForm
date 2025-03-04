@@ -45,5 +45,3 @@ This project is licensed under the **MIT License**.
 💡 **Got feedback or suggestions?** Feel free to contribute or drop a comment!
 
 🌟 **Star this repo if you found it helpful!** ⭐
-
-#WebDevelopment #JavaScript #SignUpForm #OpenSource #Frontend
